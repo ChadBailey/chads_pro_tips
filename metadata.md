@@ -18,7 +18,7 @@ I will include them here:
 - Line width should not exceed 80 for pleasant terminal reading
 - Except when the content is a URL or other continuous data stream
 - When content exceeds 80 char threshold, put the data stream on its own line
-- Here is an example of a max-width line (note that this exceeds 80 chars in  
+- Here is an example of a max-width line (note that this exceeds 80 chars in 
 markdown in order to visually simulate the 80 char width)
 
 `-------------------------------------------------------------------------------`
