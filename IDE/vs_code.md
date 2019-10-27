@@ -61,8 +61,12 @@ of the project `.vscode/settings.json`.
 | Markdown live preview     | `Ctrl+K V`            |
 | Multi-line cursor         | `Ctrl+Shift+Arrow`    |
 
+# Recommended Addons
 
-# Add Column Guideline
+- GitLens
+- Code Spell Checker
+
+# Add Column Ruler
 
 Reference 
 [this](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code) 
