@@ -23,9 +23,9 @@ Anaconda is a collection of data science tools in Python.
 
 When you first install Anaconda, by default, it will modify your terminal to 
 start with the default environment activated. Your terminal will be prefixed 
-with `(base) `.
+with `(base) `. In Linux this might look like `(base) chad@hostname:~$ `.
 
-Activate environment using `conda activate`
+Activate environment using `conda activate`  
 Deactivate environment using `conda deactivate`
 
 
