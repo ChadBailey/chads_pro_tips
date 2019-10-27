@@ -11,5 +11,5 @@ These documents should...
 - Be short and to the point
 - Not depend on reading of externally linked references
 - Have no external dependencies
-- Useful from the terminal
+- Be easily legible in the terminal
 - Have pictures, but not depend on them for comprehension.
