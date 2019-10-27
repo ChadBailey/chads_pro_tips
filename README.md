@@ -10,6 +10,7 @@ These documents should...
 
 - Be short and to the point
 - Not depend on reading of externally linked references
+  - External links are encouraged, but advice must be useful without internet access.
 - Have no external dependencies
 - Be easily legible in the terminal
 - Have pictures, but not depend on them for comprehension.

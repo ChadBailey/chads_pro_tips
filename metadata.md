@@ -22,3 +22,5 @@ I will include them here:
 markdown in order to visually simulate the 80 char width)
 
 `-------------------------------------------------------------------------------`
+
+[Github Flavored Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
