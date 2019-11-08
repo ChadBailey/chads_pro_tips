@@ -1,9 +1,3 @@
-[comment]: # (Markdown Metadata)
-[comment]: # (Intended to use Github markdown processing rules)
-[comment]: # (Line width should not exceed 80 for pleasant terminal reading)
-[comment]: # (Except when the content is a URL or other continuous data stream)
-[comment]: # (-----------------This line is max-width--------------------------)
-
 # Visual Studio Code Overview
 
 Visual Studio Code is a general purpose IDE. It is Free and Open Source, 

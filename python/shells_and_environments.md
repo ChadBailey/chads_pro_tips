@@ -1,9 +1,3 @@
-[comment]: # (Markdown Metadata)
-[comment]: # (Intended to use Github markdown processing rules)
-[comment]: # (Line width should not exceed 80 for pleasant terminal reading)
-[comment]: # (Except when the content is a URL or other continuous data stream)
-[comment]: # (-----------------This line is max-width--------------------------)
-
 # Environments
 
 The term `environment` is used in the computer world to collectively describe 
