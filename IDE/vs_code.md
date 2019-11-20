@@ -92,3 +92,39 @@ this, depending on what other settings you have adjusted:
     "editor.rulers": [80,120]
 }
 ```
+
+# Configuration
+
+To begin debugging the current file, hit `F5` or click 
+`Debug > Start Debugging`. This will cause a dropdown to appear with known 
+options for debugging the file. To choose a default option so that debugging is 
+instant, click `Debug > Add Configuration`. This will save a file in 
+`.vscode/launch.json`.
+
+> IMPORTANT: I have personally seen exploits in the wild searching for .vscode 
+and related files, so please add this to your gitignore and do not expose to 
+any web servers. Apparently, some configurations will store passwords here.
+
+## Behave Cucumber Testing (Python)
+
+In order to debug .feature files using behave, you must add your own custom 
+debugger. Do this by going to `Debug > Add Configuration` Next, click `Python` 
+then `Module`. Enter `behave` into the prompt then hit enter. `launch.json` 
+should now be shown with an entry for behave. Here is an example:
+
+```JSON
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "behave"
+        }
+    ]
+}
+```
