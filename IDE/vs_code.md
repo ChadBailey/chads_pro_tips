@@ -112,7 +112,7 @@ debugger. Do this by going to `Debug > Add Configuration` Next, click `Python`
 then `Module`. Enter `behave` into the prompt then hit enter. `launch.json` 
 should now be shown with an entry for behave. Here is an example:
 
-```JSON
+```JSONc
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
