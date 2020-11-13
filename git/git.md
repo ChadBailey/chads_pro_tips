@@ -72,6 +72,15 @@ below commands will include the optional `--global` switch.
 
 i.e. `git config --unset --global http.proxy`
 
+## Download errors/speed
+
+Try increasing buffer
+
+`git config --global http.postBuffer 524288000`
+
+> https://stackoverflow.com/questions/38618885/error-rpc-failed-curl-transfer-closed-with-outstanding-read-data-remaining  
+> https://stackoverflow.com/questions/22040246/git-pull-is-very-slow-why
+
 ## Credential Management
 
 Enable OS credential storage
