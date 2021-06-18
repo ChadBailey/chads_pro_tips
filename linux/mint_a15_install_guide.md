@@ -19,13 +19,13 @@
 5. Boot Mint from the hard repeating step 3
 6. Edit `/etc/default/grub` changing `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"` to `GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"` then run `update-grub2` so that you don't go insane doing step 3 every time you need to boot until it's fixed.
 7. Boot into Mint and config/install updates/etc as you would with any new OS install **do not install the propertary nvidia drivers**
-8. Reboot and install [Ubuntu Mainline Kernel Installer](https://github.com/bkw777/mainline) note that you only have to follow these steps:
-```
-sudo add-apt-repository ppa:cappelikan/ppa
-sudo apt update
-sudo apt install mainline
-```
-8. Use mainline kernel installer to install a kernel >= 4.6 - and if you're not about that "do a million changes and expect them to all perfectly first try yolo" life like me, reboot into the new kernel to confirm it's working properly. Note that screen brightness and perhaps other keyboard shortcuts may now begin to function that weren't working before.
+8. Update your kernel _using the Update Manager_.
+  a. Open Update Manager, go to `view > Linux Kernels`
+  b. Click the latest kernel at the very top (at the time of writing, that's 5.8.0-55)
+  c. Click `Install`
+  d. Reboot
+  e. Once you validate it's working, remove your old driver via `view > Linux Kernels` then click the major revision on the left (in my case, 5.4), then click the specific installed driver and click `Remove`
+  d. Your system should now have only 1 kernel.
 9. Open driver manager and install the recommended proprietary nvidia-driver version. It will say "NVIDIA driver metapackage" under it if it is the proprietary one (the open source one - which does not work well - will say "Nouveau display driver")
 10. Revert #6 by editing `/etc/default/grub` and changing `GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"` to `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"` then running `update-grub2` to apply the changes.
 11. Boot into your minty fresh OS running only the finest responsibly sourced kernel and drivers
@@ -39,8 +39,7 @@ sudo apt install mainline
 
 ## Don't work
 
-1. Display port over USB-C (I hope I can fix with trying different kernels - note that newest kernels may depend on packages that are too new for other packages on your system)
-2. ??? (I'm sure there's tons of broken crap, I just haven't found it yet)
+1. ??? (I'm sure there's tons of broken crap, I just haven't found it yet)
 
 
 ## Rant / Story Time
